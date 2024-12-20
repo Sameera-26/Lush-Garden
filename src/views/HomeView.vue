@@ -1,6 +1,6 @@
 <template>
   <div class="bg-[url('@/assets/hero.png')] h-screen w-screen bg-cover bg-center bg-no-repeat">
-    <Main> </Main>
+    <Main></Main>
     <div class="flex flex-col items-center justify-center my-11 py-12">
       <h1 class="text-white text-6xl font-semibold">Nature's Beauty Delivered to You</h1>
       <div class="py-12">
@@ -18,7 +18,7 @@
           Book Now
         </button>
         <button
-          class="border-2 rounded-sm flex text-white mx-7 px-12 py-2 hover:bg-[#285A43] hover:border-[#285A43]"
+          class="border-2 rounded-sm flex text-white mx-7 px-12 py-2 hover:bg-[#285A43]/40 hover:border-[#285A43]/40"
         >
           <img class="mx-2" src="@/assets/play.png" />
           Watch Video
@@ -28,7 +28,5 @@
   </div>
 </template>
 <script setup lang="ts">
-export default {
-  components: {},
-}
+import Main from '@/Layout/Main.vue'
 </script>

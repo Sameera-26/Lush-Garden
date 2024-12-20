@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import HomeView from './views/HomeView.vue'
+import AboutView from './views/AboutView.vue'
 </script>
 
 <template>
-  <HomeView></HomeView>
+  <div class="flex flex-col">
+    <HomeView> </HomeView>
+    <AboutView></AboutView>
+  </div>
 </template>
 
 <style scoped></style>
