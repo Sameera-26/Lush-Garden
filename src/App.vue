@@ -1,14 +1,24 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HomeView from './views/HomeView.vue'
-import AboutView from './views/AboutView.vue'
+import SelectionView from './views/SelectionView.vue'
+import OfferView from './views/OfferView.vue'
 </script>
 
 <template>
-  <div class="flex flex-col">
+  <div class="w-screen">
     <HomeView> </HomeView>
-    <AboutView></AboutView>
+    <SelectionView></SelectionView>
+    <OfferView></OfferView>
   </div>
 </template>
 
-<style scoped></style>
+<style>
+/* Reset default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+</style>

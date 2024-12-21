@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
-    <img class="my-5 px-8" src="@/assets/logo.png" />
+    <img class="my-5 px-8" src="@/assets/logo.png" style="max-width-100%" />
 
     <div class="hidden w-full md:block md:w-auto">
       <ul
