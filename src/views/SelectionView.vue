@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-2 m-20">
-    <div class="text-5xl font-bold text-[#285A43] items-left capitalize">
+    <div class="text-4xl font-bold text-[#285A43] items-left capitalize">
       <h1 class="">We Help choose the most</h1>
       <h1 class="">suitable plants for you</h1>
     </div>
