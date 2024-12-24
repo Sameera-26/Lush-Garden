@@ -3,16 +3,20 @@
     <h1 class="">What we offer to you</h1>
   </div>
 
-  <div class="container mx-auto px-4">
-    <div class="grid grid-cols-4 md:grid-cols-4 gap-4">
-      <div v-for="plant in plants.slice(0, 8)" :key="plant.name" class="relative w-full">
+  <div class="container mx-auto px-6 sm:px-8 lg:px-12 max-w-6xl py-12">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div
+        v-for="plant in plants.slice(0, 8)"
+        :key="plant.name"
+        class="relative w-full max-w-xs mx-auto"
+      >
         <div class="rounded-md bg-white shadow-md">
           <!-- Image Section -->
           <div class="relative w-full aspect-square">
             <img
               :src="plant.image"
               :alt="plant.name"
-              class="absolute w-full h-full object-cover rounded-t-md"
+              class="absolute w-full h-auto object-cover rounded-t-md"
             />
             <!-- Heart Icon -->
             <div

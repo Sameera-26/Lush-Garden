@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HomeView from './views/HomeView.vue'
 import SelectionView from './views/SelectionView.vue'
 import OfferView from './views/OfferView.vue'
+import BenefitView from './views/BenefitView.vue'
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import OfferView from './views/OfferView.vue'
     <HomeView> </HomeView>
     <SelectionView></SelectionView>
     <OfferView></OfferView>
+    <BenefitView></BenefitView>
   </div>
 </template>
 

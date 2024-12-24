@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-2 m-20">
+  <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 m-20">
     <div class="text-4xl font-bold text-[#285A43] items-left capitalize">
       <h1 class="">We Help choose the most</h1>
       <h1 class="">suitable plants for you</h1>
@@ -11,7 +11,9 @@
       thoughtful gift.
     </div>
   </div>
-  <div class="grid grid-cols-3 m-20 gap-6 mt-12">
+  <div
+    class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 1 m-5 sm:m-6 md:m-20 lg:m-20 gap-6 mt-12"
+  >
     <div
       class="block max-w-sm p-12 max-h-lg bg-white border border-gray-200/5 rounded-lg shadow-xl hover:bg-[#337A5B] hover:shadow-lg dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 hover:text-white"
     >
