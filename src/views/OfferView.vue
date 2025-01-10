@@ -1,26 +1,26 @@
 <template>
-  <div class="text-4xl font-bold text-[#285A43] items-center text-center capitalize my-6">
+  <div class="text-4xl font-bold text-[#285A43] items-center text-center capitalize">
     <h1 class="">What we offer to you</h1>
   </div>
 
-  <div class="container mx-auto px-6 sm:px-8 lg:px-12 max-w-6xl py-12">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  <div class="container max-w-6xl px-6 py-12 mx-auto sm:px-8 lg:px-12">
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <div
         v-for="plant in plants.slice(0, 8)"
         :key="plant.name"
         class="relative w-full max-w-xs mx-auto"
       >
-        <div class="rounded-md bg-white shadow-md">
+        <div class="bg-white rounded-md shadow-md">
           <!-- Image Section -->
           <div class="relative w-full aspect-square">
             <img
               :src="plant.image"
               :alt="plant.name"
-              class="absolute w-full h-auto object-cover rounded-t-md"
+              class="absolute object-cover w-full h-auto rounded-t-md"
             />
             <!-- Heart Icon -->
             <div
-              class="absolute top-4 right-4 bg-white rounded-full p-2 cursor-pointer"
+              class="absolute p-2 bg-white rounded-full cursor-pointer top-4 right-4"
               onclick="this.querySelector('svg path').setAttribute('fill', '#337A5B');"
             >
               <svg
@@ -37,7 +37,7 @@
           </div>
           <!-- Text Section -->
           <div class="p-2">
-            <div class="flex items-center justify-between space-x-1 px-2">
+            <div class="flex items-center justify-between px-2 space-x-1">
               <div>
                 <h3 class="text-[#337A5B] font-medium">Cactus Plant</h3>
                 <span class="text-[80%]">

@@ -4,6 +4,7 @@ import HomeView from './views/HomeView.vue'
 import SelectionView from './views/SelectionView.vue'
 import OfferView from './views/OfferView.vue'
 import BenefitView from './views/BenefitView.vue'
+import ReviewView from './views/ReviewView.vue'
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import BenefitView from './views/BenefitView.vue'
     <SelectionView></SelectionView>
     <OfferView></OfferView>
     <BenefitView></BenefitView>
+    <ReviewView></ReviewView>
   </div>
 </template>
 
