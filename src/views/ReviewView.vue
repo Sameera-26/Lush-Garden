@@ -42,7 +42,7 @@
         <div class="flex items-center mb-4">
           <img src="@/assets/review/Kat.png" alt="Doris Watson" class="w-12 h-12 rounded-full" />
           <h5 class="ml-4 text-xl font-raleway font-semibold text-[#285A43] dark:text-white">
-            Doris Watson
+            Kate Szu
           </h5>
         </div>
         <p
@@ -65,7 +65,7 @@
         <div class="flex items-center mb-4">
           <img src="@/assets/review/Dyness.png" alt="Doris Watson" class="w-12 h-12 rounded-full" />
           <h5 class="ml-4 text-xl font-raleway font-semibold text-[#285A43] dark:text-white">
-            Doris Watson
+            Dyness
           </h5>
         </div>
         <p
@@ -90,7 +90,9 @@
     </div>
 
     <!-- Content -->
-    <div class="relative z-10 flex flex-row items-center justify-center h-full p-6 text-white">
+    <div
+      class="relative z-10 flex flex-col items-center justify-center h-full p-6 text-white md:flex-row lg:flex-row sm:flex-col"
+    >
       <h2 class="max-w-md p-4 mt-6 text-2xl font-normal leading-10 justify-left">
         Enter Your Email Address For Our Mailing Promo Or Other Interesting Things
       </h2>

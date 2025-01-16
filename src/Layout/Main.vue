@@ -4,7 +4,7 @@
 
     <div class="hidden w-full md:block md:w-auto">
       <ul
-        class="font-medium flex flex-col p-4 md:p-0 mt-4 border md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
+        class="flex flex-col p-4 mt-4 font-medium border md:p-0 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0"
       >
         <li>
           <a
@@ -38,7 +38,10 @@
             >Contact</a
           >
         </li>
-        <button class="border-2 rounded-sm hover:bg-[#285A43]/20 text-white mx-7 px-14">
+        <button
+          class="border-2 rounded-sm hover:bg-[#285A43]/20 text-white mx-7 px-14"
+          onclick="window.location.href='https://turingoid.com'"
+        >
           Call Us
         </button>
       </ul>
@@ -111,6 +114,7 @@
         </li>
         <button
           class="border-2 rounded-sm bg-[#285A43]/20 md:hover:bg-[#285A43]/20 text-white md:mx-7 px-14"
+          onclick="window.location.href='https://turingoid.com'"
         >
           Call Us
         </button>
