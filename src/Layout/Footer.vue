@@ -18,7 +18,7 @@
         <div class="flex items-center justify-center gap-20 my-8">
           <a
             href="https://www.instagram.com/turingoid"
-            class="p-0"
+            class="p-0 rounded-full"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -26,7 +26,7 @@
           </a>
           <a
             href="https://www.instagram.com/turingoid"
-            class="p-0"
+            class="p-0 rounded-full"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -34,7 +34,7 @@
           </a>
           <a
             href="https://www.x.com/turingoid"
-            class="p-0"
+            class="p-0 rounded-full"
             target="_blank"
             rel="noopener noreferrer"
           >
